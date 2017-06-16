@@ -4,7 +4,6 @@
  <parameterEntry kind="XmlFile" scope="\\StudentsList.xml" match="//Student/Phone/text()"/>
 </parameter>
 </parameters>
-<!--hello world-->
-<!--hello world-->
+
 <!--./StudentsList[./Student/Phone = *]--> 
 <!--\\StudentsList.xml-->
