@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<parameters>
-<parameter name="Phone1" description="" tags="" value="555555">
- <parameterEntry kind="XmlFile" scope="\\StudentsList.xml" match="//Student/Phone/text()"/>
-</parameter>
-</parameters>
-
-<!--./StudentsList[./Student/Phone = *]--> 
-<!--\\StudentsList.xml-->
