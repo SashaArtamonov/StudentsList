@@ -27,7 +27,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\</OutputPath>
-    <!--<BaseOutputPath>dir2\</BaseOutputPath>-->
+    <!--<BaseOutputPath>dir2\BaseOutputPath>-->
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -156,7 +156,7 @@
   <PropertyGroup>
     <AfterAddIisSettingAndFileContentsToSourceManifest>MakeEmptyFolders</AfterAddIisSettingAndFileContentsToSourceManifest>
   </PropertyGroup>
-  <Target Name="MakeEmptyFolders">
+  <!--<Target Name="MakeEmptyFolders">
     <MakeDir Directories="$(_MSDeployDirPath_FullPath)\$(OutputPath)" />
     <ItemGroup>
       <_CopyItems Include="$(_MSDeployDirPath_FullPath)\bin\*.*" />
@@ -167,5 +167,5 @@
   <Target Name="BeforeBuild">
   </Target>
   <Target Name="AfterBuild">
-  </Target>
+  </Target>-->
 </Project>
