@@ -1,3 +1,4 @@
+cp Parameters.xml "C:\TeamCity\buildAgent\work\63e415b4d300991e"
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 function Unzip
 {
