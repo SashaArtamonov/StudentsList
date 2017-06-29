@@ -153,10 +153,10 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
-  <PropertyGroup>
+ <!-- <PropertyGroup>
     <AfterAddIisSettingAndFileContentsToSourceManifest>MakeEmptyFolders</AfterAddIisSettingAndFileContentsToSourceManifest>
   </PropertyGroup>
-  <!--<Target Name="MakeEmptyFolders">
+  <Target Name="MakeEmptyFolders">
     <MakeDir Directories="$(_MSDeployDirPath_FullPath)\$(OutputPath)" />
     <ItemGroup>
       <_CopyItems Include="$(_MSDeployDirPath_FullPath)\bin\*.*" />
