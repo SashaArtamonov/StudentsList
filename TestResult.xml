@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Administrator\Desktop\StudentsList\Tests\bin\Debug\Tests.dll" total="3" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2017-11-20" time="05:17:29">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8762" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\Administrator\Desktop\StudentsList" machine-name="EPUALVIW1468T1" user="Administrator" user-domain="EPUALVIW1468T1" />
+  <culture-info current-culture="ru-RU" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\Administrator\Desktop\StudentsList\Tests\bin\Debug\Tests.dll" executed="True" result="Success" success="True" time="0.900" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.892" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="HomeControllerTest" executed="True" result="Success" success="True" time="0.890" asserts="0">
+            <results>
+              <test-case name="Tests.HomeControllerTest.DataTest" executed="True" result="Success" success="True" time="0.772" asserts="3" />
+              <test-case name="Tests.HomeControllerTest.InitializationTest" executed="True" result="Success" success="True" time="0.021" asserts="1" />
+              <test-case name="Tests.HomeControllerTest.SortTest" executed="True" result="Success" success="True" time="0.066" asserts="1" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
