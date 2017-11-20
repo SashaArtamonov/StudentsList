@@ -2,7 +2,10 @@
 rem You should set next parameters as environment variables: USERNAME, PASSWORD
 
 set SERVER=localhost
-set SITE_NAME=Students
+set SITE_NAME=students.local
+set USERNAME=Administrator
+set PASSWORD=vagrant
+
 
 set MSDEPLOY="C:\Program Files (x86)\IIS\Microsoft Web Deploy V3\msdeploy.exe"
 
