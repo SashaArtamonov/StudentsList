@@ -1,10 +1,10 @@
 @echo off
 rem You should set next parameters as environment variables: USERNAME, PASSWORD
 
-set SERVER=ec2-52-32-247-141.us-west-2.compute.amazonaws.com
+set SERVER=localhost
 set SITE_NAME=students.local
-set USERNAME=Deploy
-set PASSWORD=123456Aa
+set USERNAME=Administrator
+set PASSWORD=vagrant
 
 set MSDEPLOY="C:\Program Files (x86)\IIS\Microsoft Web Deploy V3\msdeploy.exe"
 
