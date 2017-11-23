@@ -29,7 +29,7 @@ IF "%SITE_NAME%"=="" (
 
 
 set _MsDeployAdditionalFlags=%_MsDeployAdditionalFlags% -setParam:'IIS Web Application Name'='%SITE_NAME%' -allowUntrusted
-call "%~dp0StudentsList\obj\Debug\Package\StudentsList.deploy.cmd " /Y /U:%USERNAME% /P:%PASSWORD% /M:%SERVER%
+call "%~dp0\sample\obj\Debug\Package\StudentsList.deploy.cmd " /Y /U:%USERNAME% /P:%PASSWORD% /M:%SERVER%
 IF %ERRORLEVEL% NEQ 0 exit /b %ERRORLEVEL%
 
 Echo    ***** Deploy successful ***** 
