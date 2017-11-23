@@ -1,4 +1,8 @@
-cp Parameters.xml "C:\TeamCity\buildAgent\work\63e415b4d300991e"
+cp D:\TeamCity\buildAgent\work\f5f9b0bd3b4556c2\artifacts\Parameters.xml "D:\TeamCity\buildAgent\work\362562ae9b31fb9a"
+$dir = "D:\TeamCity\buildAgent\work\f5f9b0bd3b4556c2\artifacts"
+$filter="*.zip"
+$latest = Get-ChildItem -Path $dir -Filter $filter | Sort-Object LastAccessTime -Descending | Select-Object -First 1
+$latest.name
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 function Unzip
 {
@@ -7,4 +11,4 @@ function Unzip
     [System.IO.Compression.ZipFile]::ExtractToDirectory($zipfile, $outpath)
 }
 
-Unzip "C:\TeamCity\buildAgent\work\e2dfe7db11bd71fd\*.zip" "C:\TeamCity\buildAgent\work\63e415b4d300991e"
+Unzip "D:\TeamCity\buildAgent\work\f5f9b0bd3b4556c2\artifacts\$latest" "D:\TeamCity\buildAgent\work\362562ae9b31fb9a"

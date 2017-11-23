@@ -10,8 +10,8 @@
     </Module>
     <Module hash="3A-D0-4C-79-C8-AA-1B-3A-7D-A4-BD-AB-D6-CC-D7-E5-9F-20-68-F1">
       <Summary numSequencePoints="20" visitedSequencePoints="17" numBranchPoints="12" visitedBranchPoints="10" sequenceCoverage="85" branchCoverage="83.33" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" visitedClasses="4" numClasses="5" visitedMethods="6" numMethods="8" />
-      <ModulePath>C:\TeamCity\buildAgent\work\4c2ab2ac7c144384\packages\opencover.4.6.519\Samples\x64\OpenCover.Simple.Target.exe</ModulePath>
-      <ModuleTime>2017-07-10T13:11:43.4361174Z</ModuleTime>
+      <ModulePath>C:\Users\vagrant\Desktop\StudentsList\packages\opencover.4.6.519\Samples\x64\OpenCover.Simple.Target.exe</ModulePath>
+      <ModuleTime>2017-11-22T15:42:10.2646432Z</ModuleTime>
       <ModuleName>OpenCover.Simple.Target</ModuleName>
       <Files>
         <File uid="1" fullPath="c:\projects\opencover\main\OpenCover.Simple.Target\Other.cs" />
