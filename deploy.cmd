@@ -1,7 +1,7 @@
 @echo off
 rem You should set next parameters as environment variables: USERNAME, PASSWORD
 
-set SERVER=ec2-35-165-210-152.us-west-2.compute.amazonaws.com
+set SERVER=ec2-34-214-109-224.us-west-2.compute.amazonaws.com
 set SITE_NAME=sample.local
 set USERNAME=Administrator
 
