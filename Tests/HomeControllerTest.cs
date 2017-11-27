@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
-using StudentsList.Controllers;
-using StudentsList.Models;
+using sample.Controllers;
+using sample.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -22,25 +22,25 @@ namespace Tests
         {
             _home = new HomeController();
 
-            _path =  Path.Combine(AppDomain.CurrentDomain.BaseDirectory,"../../../StudentsList/App_Data");
+            _path =  Path.Combine(AppDomain.CurrentDomain.BaseDirectory,"../../../sample/App_Data");
         }
 
         [Test]
         public void InitializationTest()
         {
-            Students students = _home.GetStudentsList(_path);
+            Students students = _home.Getsample(_path);
 
-            Assert.IsNotNull(students.StudentsList);
+            Assert.IsNotNull(students.sample);
         }
 
         [Test]
         public void DataTest()
         {
-            Students students = _home.GetStudentsList(_path);
+            Students students = _home.Getsample(_path);
 
-            Assert.AreEqual(students.StudentsList[0].Age, 19);
-            Assert.AreEqual(students.StudentsList[0].Address, "Lviv");
-            Assert.AreEqual(students.StudentsList[0].Phone, "123456");
+            Assert.AreEqual(students.sample[0].Age, 19);
+            Assert.AreEqual(students.sample[0].Address, "Lviv");
+            Assert.AreEqual(students.sample[0].Phone, "123456");
         }
 
         [Test]

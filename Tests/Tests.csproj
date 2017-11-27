@@ -79,9 +79,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StudentsList\StudentsList.csproj">
+    <ProjectReference Include="..\sample\sample.csproj">
       <Project>{4c320b43-80f4-4d71-81c7-35a886a1ccda}</Project>
-      <Name>StudentsList</Name>
+      <Name>sample</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
