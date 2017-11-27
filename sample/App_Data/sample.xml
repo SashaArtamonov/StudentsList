@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<StudentsList>
+<sample>
   <Student>
     <FullName>John Smith</FullName>
     <Age>19</Age>
@@ -72,4 +72,4 @@
     <Address>Kyiv</Address>
     <Phone>654321</Phone>
   </Student>
-</StudentsList> 
+</sample> 
