@@ -4,5 +4,3 @@
  <parameterEntry kind="XmlFile" scope="\\sample.xml" match="//Student/Phone/text()"/>
 </parameter>
 </parameters>
-<!--test comment-->
-<!--test comment-->
