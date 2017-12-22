@@ -5,7 +5,7 @@ set SERVER=ec2-35-166-8-83.us-west-2.compute.amazonaws.com
 set SITE_NAME=sample.local
 set USERNAME=Administrator
 set MSDEPLOY="C:\Program Files (x86)\IIS\Microsoft Web Deploy V3\msdeploy.exe"
-
+rem test
 IF "%USERNAME%"=="" (
     echo USERNAME is not defined
     exit /b 1
